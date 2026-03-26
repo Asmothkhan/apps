@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947",
+    "title": "Music Player Pro",
+    "companyName": "SoundWave Inc.",
+    "id": 1,
+    "description": "A powerful music player with high-quality audio support.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74",
+    "title": "FitLife Tracker",
+    "companyName": "HealthTech Ltd.",
+    "id": 2,
+    "description": "Track your workouts and stay fit with personalized plans.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
+    "title": "Food Recipe Hub",
+    "companyName": "KitchenSoft",
+    "id": 3,
+    "description": "Discover delicious recipes from around the world.",
+    "size": 30,
+    "reviews": 870,
+    "ratingAvg": 4.2,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "title": "Travel Guide Pro",
+    "companyName": "Wanderlust Apps",
+    "id": 4,
+    "description": "Plan your trips with expert travel recommendations.",
+    "size": 55,
+    "reviews": 1500,
+    "ratingAvg": 4.6,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+    "title": "Money Manager",
+    "companyName": "FinTech Solutions",
+    "id": 5,
+    "description": "Manage your expenses and savings effectively.",
+    "size": 40,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 405 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644",
+    "title": "Learn English Fast",
+    "companyName": "EduTech Global",
+    "id": 6,
+    "description": "Improve your English skills with interactive lessons.",
+    "size": 35,
+    "reviews": 920,
+    "ratingAvg": 4.1,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 370 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420",
+    "title": "Battle Arena Game",
+    "companyName": "GameZone Studio",
+    "id": 7,
+    "description": "An action-packed multiplayer battle game.",
+    "size": 120,
+    "reviews": 5000,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2850 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+    "title": "Photo Editor Plus",
+    "companyName": "Pixel Labs",
+    "id": 8,
+    "description": "Edit your photos with advanced tools and filters.",
+    "size": 75,
+    "reviews": 2100,
+    "ratingAvg": 4.5,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1040 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b",
+    "title": "Weather Now",
+    "companyName": "SkyTech",
+    "id": 9,
+    "description": "Get real-time weather updates and forecasts.",
+    "size": 25,
+    "reviews": 600,
+    "ratingAvg": 4.0,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 215 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515168833906-d2a3b82b302a",
+    "title": "ShopEasy",
+    "companyName": "RetailSoft",
+    "id": 10,
+    "description": "Your one-stop shop for all your daily needs.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.3,
+    "downloads": 700000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    "title": "Note Keeper",
+    "companyName": "Productive Apps",
+    "id": 11,
+    "description": "Take notes quickly and organize your thoughts.",
+    "size": 20,
+    "reviews": 500,
+    "ratingAvg": 4.2,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 170 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "title": "Task Manager Pro",
+    "companyName": "WorkFlow Ltd.",
+    "id": 12,
+    "description": "Organize your daily tasks and boost productivity.",
+    "size": 28,
+    "reviews": 750,
+    "ratingAvg": 4.3,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 250 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "title": "Meditation Calm",
+    "companyName": "MindPeace",
+    "id": 13,
+    "description": "Relax and meditate with guided sessions.",
+    "size": 33,
+    "reviews": 670,
+    "ratingAvg": 4.4,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 230 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "Code Editor Lite",
+    "companyName": "DevTools Inc.",
+    "id": 14,
+    "description": "Lightweight code editor for developers.",
+    "size": 50,
+    "reviews": 1300,
+    "ratingAvg": 4.6,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 470 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "title": "Team Chat",
+    "companyName": "Connectify",
+    "id": 15,
+    "description": "Communicate with your team instantly.",
+    "size": 38,
+    "reviews": 890,
+    "ratingAvg": 4.2,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 295 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+    "title": "Podcast Player",
+    "companyName": "AudioHub",
+    "id": 16,
+    "description": "Listen to your favorite podcasts anytime.",
+    "size": 42,
+    "reviews": 720,
+    "ratingAvg": 4.3,
+    "downloads": 260000,
+    "ratings": [
+      { "name": "1 star", "count": 28 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 232 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1473186578172-c141e6798cf4",
+    "title": "News Daily",
+    "companyName": "Global News Ltd.",
+    "id": 17,
+    "description": "Stay updated with the latest news worldwide.",
+    "size": 27,
+    "reviews": 640,
+    "ratingAvg": 4.1,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 185 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    "title": "File Manager",
+    "companyName": "StorageTech",
+    "id": 18,
+    "description": "Manage and organize your files easily.",
+    "size": 32,
+    "reviews": 580,
+    "ratingAvg": 4.0,
+    "downloads": 170000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 145 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "title": "Pet Care Guide",
+    "companyName": "PetWorld",
+    "id": 19,
+    "description": "Take care of your pets with expert tips.",
+    "size": 29,
+    "reviews": 430,
+    "ratingAvg": 4.3,
+    "downloads": 140000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 120 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "title": "AI Assistant",
+    "companyName": "SmartTech AI",
+    "id": 20,
+    "description": "Your personal AI assistant for daily tasks.",
+    "size": 70,
+    "reviews": 2500,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1190 }
+    ]
+  }
+]
