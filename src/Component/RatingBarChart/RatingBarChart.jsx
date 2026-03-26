@@ -3,9 +3,10 @@ import { Bar, BarChart, XAxis, YAxis } from 'recharts';
 import { Tooltip, CartesianGrid } from 'recharts';
 
 const RatingBarChart = ({ app }) => {
-    const { ratings } = app;
+    // const { ratings } = app;
+    const ratings=app?.ratings || [];
     
-     const rating = ratings.map(rate => ({
+     const rating = ratings?.map(rate => ({
   name: rate.name,
   count: rate.count
 }));

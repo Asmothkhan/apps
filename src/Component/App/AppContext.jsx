@@ -6,11 +6,7 @@ import { toast } from "react-toastify";
 export const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
-  // ১. State Initialization (Local Storage theke data load shoho)
-  // const [installedApps, setInstalledApps] = useState(() => {
-  //   const saved = localStorage.getItem("installedApps");
-  //   return saved ? JSON.parse(saved) : [];
-  // });
+  
 
   const [installedApps, setInstalledApps] = useState(() => {
   try {
@@ -29,7 +25,7 @@ const AppProvider = ({ children }) => {
 
   // ৩. App Install logic
   const installApp = (app) => {
-    const exists = installedApps.find((a) => a.id == app.id);
+    const exists = installedApps.find((a) => a.id === app.id);
     if (!exists) {
       setInstalledApps([...installedApps, app]);
       toast.success(`${app.title} Installed Successfully ✅`);

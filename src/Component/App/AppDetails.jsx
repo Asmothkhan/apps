@@ -9,22 +9,25 @@ import { AppContext } from "./AppContext";
 import { toast } from "react-toastify";
 
 const AppDetails = () => {
-  const { installApp, installedApps } = useContext(AppContext);
+ const { installApp, installedApps = [] } = useContext(AppContext);
 const navigate = useNavigate();
   const { id } = useParams();
   // const [data, setData] = useState([]);
   const [app, setApp] = useState(null);
+   console.log(app)
   
- const isInstalled = installedApps.find(item => item.id == id);
-  useEffect(() => {
 
-    fetch("/AppData.json")
-      .then(res => res.json())
-      .then(data => {
-               const found = data.find(item => item.id == id);
-        setApp(found);
-      });
-  }, [id]);
+
+const isInstalled = installedApps?.find(item => item.id === Number(id));
+
+useEffect(() => {
+  fetch("/AppData.json")
+    .then(res => res.json())
+    .then(data => {
+      const found = data.find(item => item.id === Number(id));
+      setApp(found);
+    });
+}, [id]);
 
   if (!app) {
     return <h2>Loading...</h2>;
@@ -50,20 +53,11 @@ const navigate = useNavigate();
   className="btn btn-accent"
   onClick={() => {installApp(app);
     toast.success("App Installed Successfully ✅")
-  }} // Shudhu function-ta call korlei hobe
-  disabled={isInstalled}
+  }} 
 >
   {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
 </button>
-   {/* <button
-  className="btn btn-accent"
-  onClick={() => installApp(app);
-    toast.success("App Installed Successfully ✅")
-  }
-  disabled={isInstalled}
->
-  {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
-</button> */}
+   
 </div>
     </div>
    
@@ -71,7 +65,8 @@ const navigate = useNavigate();
 
         <div>
             <h2 className='text-xl font-bold mt-5 mb-2 ml-5'>Ratings</h2>
-            <RatingBarChart app={app}></RatingBarChart>
+            <RatingBarChart  app={app}></RatingBarChart>
+           
         </div>
 
         <h2 className='text-xl font-bold mt-5 mb-2 ml-5'>Description</h2>

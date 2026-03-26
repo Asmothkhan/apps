@@ -22,7 +22,7 @@ const InstallApp = () => {
                 <h2 className='text-2xl font-bold'>({apps.length})Apps Found</h2>
                 <h3>sort By Size</h3>
             </div>
-      {apps.map(app => (
+      {apps?.map(app => (
         <div key={app.id}
         
         >
