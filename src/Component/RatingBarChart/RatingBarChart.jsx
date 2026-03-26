@@ -12,13 +12,10 @@ const RatingBarChart = ({ app }) => {
 //   count: rate.count
 // }));
 
-{
-  Array.isArray(ratings) &&
-  ratings.map((rate) => ({
-    name: rate.name,
-    count: rate.count
-  }))
-}
+const chartData = ratings.map(rate => ({
+  name: rate.name,
+  count: rate.count
+}));
  
     
     
@@ -26,7 +23,7 @@ const RatingBarChart = ({ app }) => {
     return (
         <div>
           
-          <BarChart layout="vertical" width={500} height={300} data={ratings}>
+          <BarChart layout="vertical" width={500} height={300} data={chartData}>
   <CartesianGrid strokeDasharray="3 3" />
   <XAxis type="number" />
   <YAxis dataKey="name" type="category" />
