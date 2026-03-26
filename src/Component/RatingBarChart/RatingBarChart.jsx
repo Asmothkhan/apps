@@ -4,12 +4,21 @@ import { Tooltip, CartesianGrid } from 'recharts';
 
 const RatingBarChart = ({ app }) => {
     // const { ratings } = app;
-    const ratings=app?.ratings || [];
+   const ratings = Array.isArray(app?.ratings) ? app.ratings : [];
+   console.log("ratings:", app?.ratings);
     
-     const rating = ratings?.map(rate => ({
-  name: rate.name,
-  count: rate.count
-}));
+//      const rating = ratings?.map(rate => ({
+//   name: rate.name,
+//   count: rate.count
+// }));
+
+{
+  Array.isArray(ratings) &&
+  ratings.map((rate) => ({
+    name: rate.name,
+    count: rate.count
+  }))
+}
  
     
     
@@ -17,7 +26,7 @@ const RatingBarChart = ({ app }) => {
     return (
         <div>
           
-          <BarChart layout="vertical" width={500} height={300} data={rating}>
+          <BarChart layout="vertical" width={500} height={300} data={ratings}>
   <CartesianGrid strokeDasharray="3 3" />
   <XAxis type="number" />
   <YAxis dataKey="name" type="category" />
