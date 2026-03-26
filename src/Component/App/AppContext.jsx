@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useState, useEffect } from "react";
 import { toast } from "react-toastify";
@@ -6,10 +7,20 @@ export const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
   // ১. State Initialization (Local Storage theke data load shoho)
+  // const [installedApps, setInstalledApps] = useState(() => {
+  //   const saved = localStorage.getItem("installedApps");
+  //   return saved ? JSON.parse(saved) : [];
+  // });
+
   const [installedApps, setInstalledApps] = useState(() => {
+  try {
     const saved = localStorage.getItem("installedApps");
-    return saved ? JSON.parse(saved) : [];
-  });
+    // Jodi data thake tobe parse korbe, na thakle empty array dibe
+    return saved ? JSON.parse(saved) : []; 
+  } catch (error) {
+    return []; // Kono error holeo jate array thake
+  }
+});
 
   // ২. Local Storage-e save korar logic
   useEffect(() => {
