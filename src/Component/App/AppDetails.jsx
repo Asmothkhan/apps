@@ -24,7 +24,10 @@ useEffect(() => {
   fetch("/AppData.json")
     .then(res => res.json())
     .then(data => {
-      const found = data.find(item => item.id === Number(id));
+      const apps = Array.isArray(data) ? data : data?.apps || [];
+
+      const found = apps.find(item => item.id == id);
+      // const found = data.find(item => item.id === Number(id));
       setApp(found);
     });
 }, [id]);

@@ -7,7 +7,7 @@ import { Tooltip, CartesianGrid } from 'recharts';
 const RatingBarChart = ({ app }) => {
   const ratings = Array.isArray(app?.ratings) ? app.ratings : [];
 
-  const chartData = ratings.map(rate => ({
+  const chartData =(Array.isArray(ratings) ? ratings : []).map(rate => ({
     name: rate.name,
     count: rate.count
   }));
