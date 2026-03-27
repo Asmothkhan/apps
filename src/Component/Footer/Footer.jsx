@@ -24,6 +24,9 @@ const Footer = () => {
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
   </nav>
+
+  <hr className='mb-5 text-white '/>
+        <h2 className='text-center p-6 tabs-xl '>&copy; 2026 Apps info. All rights reserved.</h2>
 </footer>
         </div>
     );
