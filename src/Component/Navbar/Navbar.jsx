@@ -27,11 +27,11 @@ const Navbar = () => {
         }
       </ul>
     </div>
-    <NavLink className='icon' to='/'>
-        <a className="btn btn-ghost text-xl">
+    <NavLink className='icon btn btn-ghost text-xl' to='/'>
+        
      <img className='h-[40px] w-[40px]' src={TitleImg} alt="" />
       HERO.IO
-    </a>
+   
     </NavLink>
   </div>
   <div className="navbar-center hidden lg:flex">

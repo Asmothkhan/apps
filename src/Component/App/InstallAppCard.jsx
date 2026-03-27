@@ -3,7 +3,7 @@ import { AppContext } from '../App/AppContext.jsx';
 import { toast } from 'react-toastify';
 
 const InstallAppCard = ({ app }) => {
-    console.log(app)
+  
   const { image, title, ratingAvg, size, id } = app;
 
   const { uninstallApp } = useContext(AppContext);

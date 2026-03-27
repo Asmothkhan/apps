@@ -4,7 +4,7 @@ import InstallAppCard from './InstallAppCard';
 
 const InstallApp = () => {
    const [apps, setApps] = useState([]);
-   console.log(apps)
+   
     
 
   useEffect(() => {
