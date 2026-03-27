@@ -19,7 +19,7 @@ const InstallApp = () => {
         <h3>Sort By Size</h3>
       </div>
 
-      {installedApps?.map(app => (
+      {(Array.isArray(installedApps) ? installedApps : []).map(app => (
         <InstallAppCard key={app.id} app={app} />
       ))}
     </div>

@@ -3,6 +3,9 @@ import TrendingCard from './TrendingCard';
 
 const TrendingCards = ({data}) => {
     const [showAll, setShowAll] = useState(false);
+
+    const apps = Array.isArray(data) ? data : [];
+const displayApps = showAll ? apps : apps.slice(0, 8);
     
 
     return (
@@ -12,7 +15,7 @@ const TrendingCards = ({data}) => {
 
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
   {
-    (showAll ? data : data.slice(0, 8))?.map((app) => (
+    displayApps.map((app) => (
       <TrendingCard key={app.id} app={app} />
     ))
   }
