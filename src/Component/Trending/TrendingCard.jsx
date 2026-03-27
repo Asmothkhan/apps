@@ -3,7 +3,7 @@ import { MdFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 
 const TrendingCard = ({app}) => {
-  
+    
   const { image, title, ratingAvg } = app;
 
 return (

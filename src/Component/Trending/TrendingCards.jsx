@@ -5,6 +5,7 @@ const TrendingCards = ({data}) => {
     const [showAll, setShowAll] = useState(false);
 
     const apps = Array.isArray(data) ? data : [];
+   
 const displayApps = showAll ? apps : apps.slice(0, 8);
     
 

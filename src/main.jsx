@@ -20,13 +20,13 @@ const router = createBrowserRouter([
       {
         index:true,
         path:"/",
-        loader:()=>fetch('../public/AppData.json'),
+        loader:()=>fetch('./AppData.json'),
         Component:Home
       },
       {
         path:'/Apps',
         loader: async () => {
-          const res = await fetch('/AppData.json');
+          const res = await fetch('./AppData.json');
                return res.json();
             },
         Component:Apps
